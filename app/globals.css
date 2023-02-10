@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Body {
+  font-family: "Satoshi", sans-serif;
+}
+
+.header_text {
+  background-image: radial-gradient(
+    62.5% 111.8% at 50% 18.9%,
+    rgb(0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari/Chrome */
+  color: transparent;
+}
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  }
+}
