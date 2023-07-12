@@ -1,6 +1,6 @@
 "use client";
 
-import { PlugsConnected } from "@phosphor-icons/react";
+import { PlugsConnected, ArrowRight } from "@phosphor-icons/react";
 
 export default function Header() {
   return (
@@ -21,9 +21,10 @@ export default function Header() {
             Integrate and automate every task of your business with AI and
             double your revenue in 3 months
           </p>
-          <div className="">
-            <button>Hola</button>
-            </div>
+          <div className="flex flex-row gap-4">
+            <button className="flex flex-row gap-2 items-center font-medium bg-[#171717] text-white px-4 py-1 rounded-[10px]">Get Started <ArrowRight size={24} /></button>
+            <button className="bg-black/10">Contact Us</button>
+          </div>
         </div>
       </div>
     </>
