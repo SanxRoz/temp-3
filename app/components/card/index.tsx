@@ -22,8 +22,8 @@ export default function Card() {
         </div>
         <div className="text-2xl font-medium">
           AI may seem overwhelming.
-          <br /> We're here to simplify it. Together, we'll unlock AI's
-          potential to solve challenges across your business
+          <br /> We&apos;re here to simplify it. Together, we&apos;ll unlock
+          AI&apos;s potential to solve challenges across your business
         </div>
       </div>
     </>
