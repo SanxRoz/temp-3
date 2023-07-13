@@ -19,12 +19,12 @@ export default function Header() {
             <h1 className="header_text md:text-7xl text-3xl font-bold text-center">
               Connect your business with AI in seconds
             </h1>
-            <p className="w-[70%] text-center text-black/50">
+            <p className="w-[70%] text-center text-[#222]/70">
               Integrate and automate every task of your business with AI and
               double your revenue in 3 months
             </p>
             <div className="flex flex-row gap-4">
-              <button className="flex flex-row gap-2 items-center font-medium bg-[#171717] text-white px-4 py-1 rounded-[10px]">
+              <button className="flex flex-row gap-2 items-center font-medium bg-[#222] text-white px-4 py-1 rounded-[10px]">
                 Get Started <ArrowRight size={24} />
               </button>
               <button className="bg-black/10 px-4 py-1 rounded-[10px] font-medium">
