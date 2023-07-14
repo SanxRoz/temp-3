@@ -5,8 +5,8 @@ import { Notepad, Planet, Sparkle } from "@phosphor-icons/react";
 export default function Card() {
   return (
     <>
-      <div className="flex flex-col gap-6 p-6 bg-[#222] text-white rounded-2xl w-[45%] shadow-[0_6px_56px_rgba(0,0,0,.16862745098039217)]">
-        <div className="w-full flex flex-row gap-4">
+      <div className="flex flex-col gap-6 p-6 bg-[#222] text-white rounded-2xl w-full md:w-[45%] shadow-[0_6px_56px_rgba(0,0,0,.16862745098039217)]">
+        <div className="w-full flex flex-wrap flex-row gap-4">
           <span className="flex flex-row font-medium flex-wrap items-end px-1.5 py-0.5 rounded-lg">
             <Notepad size={28} weight="duotone" />
             Announcing xAI

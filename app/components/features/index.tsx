@@ -77,8 +77,8 @@ export default function Features() {
     <>
       <div className="flex flex-col gap-16 items-center py-24">
         <div className="flex flex-col gap-6 items-center">
-          <h1 className="text-5xl font-semibold">Meet the team</h1>
-          <p className="w-[55%] text-center text-[#222]/70">
+          <h1 className="sm:text-5xl text-4xl font-semibold">Meet the team</h1>
+          <p className="w-[80%] md:w-[55%] text-center text-[#222]/70">
             We have previously worked at{" "}
             <a
               href="https://deepmind.com/"
@@ -219,7 +219,7 @@ export default function Features() {
             {""}.
           </p>
         </div>
-        <div className="grid grid-cols-6 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-6 gap-4">
           {Valuedata.map((item, i) => (
             <Link
               key={i}
@@ -247,7 +247,7 @@ export default function Features() {
             height="80"
             className="advisorImg"
           />
-          <p className="w-[55%] text-center text-[#222]/70">
+          <p className="w-[80%] md:w-[55%] text-center text-[#222]/70">
             Our team is advised by{" "}
             <a
               href="https://people.eecs.berkeley.edu/~hendrycks/"

@@ -18,7 +18,7 @@ export default function Footer() {
             @xAI
           </a>
         </div>
-        <p>xAI Corp</p>
+        <p className="text-[#222]/50 text-base">xAI Corp</p>
         <Image
           src="https://x.ai/favicon.svg"
           alt="xAI logo"
