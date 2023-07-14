@@ -6,8 +6,8 @@ export default function Join() {
   return (
     <>
       <div className="flex flex-col gap-8 items-center py-24">
-        <div className="flex flex-col gap-6">
-          <Briefcase size={80} color="#222222" weight="duotone" />
+        <div className="flex flex-col gap-5 items-center">
+          <Briefcase size={70} color="#222222" weight="duotone" />
           <p className="text-5xl font-semibold">Join Us</p>
         </div>
         <h1 className="w-[55%] text-center text-[#222]/70">
