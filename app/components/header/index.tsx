@@ -17,7 +17,7 @@ export default function Header() {
           />
 
           <div className="flex flex-col items-center gap-6">
-            <h1 className="header_text md:text-7xl text-3xl font-bold text-center">
+            <h1 className="header_text sm:text-7xl text-3xl font-bold text-center">
               Understand the Universe
             </h1>
             <p className="w-[70%] text-center text-[#222]/70">
