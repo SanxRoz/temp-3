@@ -3,6 +3,7 @@ import Header from "./components/header/index";
 import Card from "./components/card/index";
 import Features from "./components/features/index";
 import Team from "./components/team/index";
+import Join from "./components/join/index";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Card />
       <Features />
       <Team />
+      <Join />
     </main>
   );
 }

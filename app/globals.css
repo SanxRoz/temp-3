@@ -61,7 +61,6 @@ Body {
 }
 
 .advisorImg {
-  background-image: url(https://people.eecs.berkeley.edu/~hendrycks/me_2018_high_def.JPG);
   width: var(--size);
   height: var(--size);
   border-radius: 100%;

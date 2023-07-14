@@ -221,15 +221,17 @@ export default function Features() {
         </div>
         <div className="grid grid-cols-6 gap-4">
           {Valuedata.map((item, i) => (
-            <Link href={item.link} target="_blank" rel="noopener noreferrer">
-              <div
-                key={i}
-                className="flex flex-col items-center gap-2.5 bg-transparent"
-              >
+            <Link
+              key={i}
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="flex flex-col items-center gap-2.5 bg-transparent">
                 <div className={`teamImg ${item.class}`} />
 
                 <h4
-                  className="text-2xl font-bold text-center"
+                  className="text-2xl leading-6 font-bold text-center"
                   dangerouslySetInnerHTML={{ __html: item.heading }}
                 ></h4>
               </div>
@@ -243,11 +245,28 @@ export default function Features() {
             alt="Advisor pfp"
             width="80"
             height="80"
+            className="advisorImg"
           />
-          <div className={`advisorImg`} />
           <p className="w-[55%] text-center text-[#222]/70">
-            Our team is advised by Dan Hendrycks who currently serves as the
-            director of the Center for AI Safety.
+            Our team is advised by{" "}
+            <a
+              href="https://people.eecs.berkeley.edu/~hendrycks/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline text-[#3b82f6]"
+            >
+              Dan Hendrycks
+            </a>{" "}
+            who currently serves as the director of the{" "}
+            <a
+              href="https://www.safe.ai/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline text-[#3b82f6]"
+            >
+              Center for AI Safety
+            </a>
+            {""}.
           </p>
         </div>
       </div>
