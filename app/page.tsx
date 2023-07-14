@@ -9,6 +9,7 @@ import Footer from "./components/footer/index";
 export default function Home() {
   return (
     <main className="flex text-lg min-h-screen flex-col items-center py-16">
+      <div className="mission"><div className="stars stars-1"></div><div className="stars stars-2"></div></div>
       <Header />
       <Card />
       <Features />
